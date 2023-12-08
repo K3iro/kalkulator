@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator punktów z zachowania w ZSTI</title>
+  </head>
+  <body>
+    <header>
+      <h1>KALKULATOR PUNKTÓW Z ZACHOWANIA</h1>
+    </header>
+      <div>
+        <form id="dane">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">wybierz jakie negatywne uwagi dostałeś</h5>
+              <select
+                class="form-select"
+                id="a0"
+                multiple
+                aria-label="Multiple select example"
+              ></select>
+            </div>
+            <div>
+              <h5 class="card-title">wybierz jakie pozytywne uwagi dostałeś</h5>
+              <select
+                class="form-select"
+                id="b0"
+                multiple
+                aria-label="Multiple select example"
+              ></select>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="wypluwacz"></div>
+    <div id="zliczonePunkty"></div>
+    <button id="dodajPunkty">Sumuj Punkty zachowania</button>
+    <script src="skrypt.js"></script>
+  </body>
+</html>
