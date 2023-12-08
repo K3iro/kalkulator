@@ -122,8 +122,7 @@ function Popieranie_danych(d, formId) {
     const option = document.createElement("option");
     option.value = `p${key}`;
     option.textContent = `${value.pozycja} [${z}]`;
-
-    // Dodaj do obu formularzy
+    
     option.addEventListener("click", () => {
       zliczPunkty();
     });
