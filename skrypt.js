@@ -164,15 +164,9 @@ Popieranie_danych(daneJsonDodatnie, "a0");
 Popieranie_danych(daneJsonDodatnie, "b0");
 
 const dodajPunktyButton = document.getElementById("dodajPunkty");
-const resetujPunktyButton = document.getElementById("resetujPunkty");
+
 
 dodajPunktyButton.addEventListener("click", () => {
   alert("Dodano punkty!");
 });
 
-resetujPunktyButton.addEventListener("click", () => {
-  zliczonePunkty = 0;
-  const zliczonePunktyElement = document.getElementById("zliczonePunkty");
-  zliczonePunktyElement.innerHTML = `Zliczone punkty: ${zliczonePunkty}`;
-  alert("Zresetowano punkty!");
-});
